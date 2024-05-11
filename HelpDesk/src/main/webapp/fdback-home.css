@@ -1,0 +1,145 @@
+
+
+.feedback-container {
+    background-color:#f5f5f5;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+}
+
+.contactUsBox{
+    width: 90%;
+    max-width: 900px;
+    margin : 10px auto;
+    padding:0;
+    background-color:rgb(226, 240, 255);
+    border-radius:40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+
+}
+
+.contactUsBox h2{
+    text-align:left;
+    margin-bottom:20px;
+    font-size: 30px;
+    display:block;
+    font-style:bold;
+
+}
+
+.contactUsBox p{
+    text-align:left;
+    margin-bottom:20px;
+}
+
+#msg, #email {
+    display:block;
+    width :100%;
+    margin-bottom : 10px;
+    padding : 10px;
+    border:none;
+    border-radius:5px;
+    background-color:#dfdfdf;
+    color:#333;
+}
+#fname, #lname{
+    width :50%;
+    margin-bottom :5px;
+    padding : 10px;
+    border:none;
+    border-radius:5px;
+    background-color:#dfdfdf;
+    color:#333333;
+}
+
+#btnSendNow{
+    display:block;
+    width : 30%;
+    font-size: 18px;
+    margin-top: 20px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background-color:#333;
+    color:#fff;
+    cursor:pointer;
+    transition:0.3s;
+    
+
+}
+
+#btnSendNow:hover{
+    background: linear-gradient(#2b2b2b,#535353);
+    color: #fff;
+}
+
+.feedback-container h1{
+    text-align:center;
+    margin:20px auto;
+    padding:20px;
+    font-size: 3em;
+
+}
+
+.contactUsBox p{
+    width : 100%;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+
+.contactUsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-line {
+    width: 3px;
+    height: 50%;
+    background-color: rgb(170, 211, 255); 
+    
+}
+
+.content-left, .content-right {
+    padding: 40px; 
+}
+
+.content-left {
+    flex:1; 
+    
+}
+
+.icons {
+    display:flex;
+    flex-direction:column;
+}
+
+h2 i{
+	font-weight:normal;
+	font-size:15px;
+
+
+}
+
+
+#icon{
+    font-size:30px;
+    margin: auto;
+    text-align:center;
+    padding:0;
+    
+}
+
+#icon h2{
+    margin-top: 10px;
+    font-size:20px;
+    text-align:center;
+}
+
+h2 p{
+    font-size:15px;
+    font-weight:normal;
+}

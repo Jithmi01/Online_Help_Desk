@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.editfb{
+	text-align: center;
+	width: 80%;
+    max-width: 900px;
+    margin :50px  auto;
+    padding:20px;
+    background-color:rgb(226, 240, 255);
+    border-radius:40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fbtext{
+	display:block;
+    width :90%;
+    margin:auto;
+    padding : 10px;
+    border:none;
+    border-radius:15px;
+    background-color:#dfdfdf;
+    color:#333;
+}
+
+.subBtn{
+	text-align: center;
+    width : 30%;
+    font-size: 18px;
+    margin-top: 20px;
+    padding:10px;
+    border:none;
+    border-radius:15px;
+    background-color:#333;
+    color:#fff;
+    cursor:pointer;
+    transition:0.3s;
+}
